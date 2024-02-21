@@ -1,15 +1,76 @@
-.tanpa-bootstrap {
-    border: none;
-    padding: 20px;
-    font-weight: 800;
-    font-size: 3em;
-    background-color: tomato;
-    color: #333;
-    cursor: pointer;
+*, html {
+    margin: 0;
+    padding: 0;
 }
-.tanpa-bootstrap:hover {   
-    background-color: aqua;
+.container-navbar {
+    background-color: crimson;
+    width: 100%;
+    height: 10vh;
+}
+.ul-navbar {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.li-navbar {
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    color: white;
+    font-size: 30px;
+}
+.li-navbar:hover{
+    background-color: tomato;
+    transition: .5s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 8px;
+}
+#biodata {
+background: red;
+    width: 500px;
+    height: 500px;
+}
+.a-navbar {
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+}
+.container-content{
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.a-content {
+    background-color: white;
     color: black;
-    transform: rotateY(2);
-    transition: all .5s;
+    text-decoration: none;
+    font-size: 30PX;
+    width: 720px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 80PX;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);;
+}
+.img-content {
+    width: 50%;
+    height: 50%;
+}
+.container-footer {
+    height: 10vh;
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h1-footer {
+    font-size: 40px;
+    color: white;
 }
